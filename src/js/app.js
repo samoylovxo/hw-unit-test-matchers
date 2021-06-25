@@ -1,5 +1,3 @@
-'use strict';
-
 export default function sortPlayer(players) {
   return players.sort((a, b) => {
     if (a.health < b.health) {
