@@ -54,4 +54,5 @@ test('4', () => {
     { name: 'маг', health: 10 },
     { name: 'лучник', health: 10 },
   ]);
+  expect(result).not.toBe([]);
 });
